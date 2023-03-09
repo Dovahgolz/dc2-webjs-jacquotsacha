@@ -7,3 +7,8 @@ elt.appendChild(newElm);
 
 newElm.innerHTML = "<span>Je suis le span 1</span> <span>Je suis le span 2</span>";
 elt.replaceChild(document.createElement ("section"), newElt);
+
+document.getElementById('main');
+elt.addeventListener('click',function() {
+    elt.innerHTML = "bien jouer !";
+});
